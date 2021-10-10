@@ -1,0 +1,15 @@
+.top-wrapper div{
+    width: 90%;
+}
+.top-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-heading h1{
+    text-align: center;
+}
+
+.command-heading h2{
+    text-align: center;
+}

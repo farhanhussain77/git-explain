@@ -13,3 +13,15 @@
 .command-heading h2{
     text-align: center;
 }
+
+.cloning-repo h2{
+    text-align: center;
+}
+
+.making-repo h2{
+    text-align: center;
+}
+
+div{
+    margin-bottom: 100px;
+}

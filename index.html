@@ -36,18 +36,68 @@
                     </p>
                     <img src="images/6.PNG" alt="Image">
                 </div>
+                
+                <div>
+                    <h3>git branch:</h3>
+                    <p>
+                        The git branch command lets you create, list, rename, and delete branches. It doesn’t let you 
+                        switch between branches or put a forked history back together again. For this reason, git 
+                        branch is tightly integrated with the git checkout
+                    </p>
+                    <p>
+                        following command will create a branch with the name of <strong>dev</strong>
+                    </p>
+                    <img src="images/9.PNG" alt="Image">
+                </div>
 
                 <div>
-                    <h3>git init:</h3>
+                    <h3>git checkout:</h3>
                     <p>
-                        The git init command creates a new Git repository. Executing git init creates a .git subdirectory in 
-                        the current working directory, which contains all of the necessary Git metadata for the new repository.
+                        The git checkout command lets you navigate between the branches created by git branch. 
+                        Checking out a branch updates the files in the working directory to match the version stored in 
+                        that branch, and it tells Git to record all new commits on that branch.
                     </p>
                     <p>
-                        Open git CLI and move to the directory where you want to create new repository and run the following
-                        command. This makes the git repository having name of <strong>'test'</strong>.
+                        Following command will switch the branch from <strong>main</strong> to <strong>dev</strong>
                     </p>
-                    <img src="images/6.PNG" alt="Image">
+                    <img src="images/10.PNG" alt="Image">
+                </div>
+
+                <div>
+                    <h3>git add:</h3>
+                    <p>
+                        The git add command adds a change in the working directory to the staging area. It tells 
+                        Git that you want to include updates to a particular file in the next commit. However, 
+                        git add doesn't really affect the repository in any significant way—changes are not actually 
+                        recorded until you run git commit.
+                    </p>
+                    <p>
+                        To add changes, go to your git repository and run the following command
+                    </p>
+                    <img src="images/8.PNG" alt="Image">
+                </div>
+
+                <div>
+                    <h3>git commit:</h3>
+                    <p>
+                        The "commit" command is used to save your changes to the local repository.Using the 
+                        "git commit" command only saves a new commit object in the local Git repository.
+                        <strong>-m</strong> Sets the commit's message. Make sure to provide a concise description that helps your teammates (and yourself) understand what happened.
+                    </p>
+                    <p>
+                        In your git repository, run the <strong>git commit -m {message}</strong> command.
+                    </p>
+                    <img src="images/7.PNG" alt="Image">
+                </div>
+
+                <div>
+                    <h3>git push:</h3>
+                    <p>
+                        git push is most commonly used to publish an upload local changes to a central repository. 
+                        After a local repository has been modified a push is executed to share the modifications 
+                        with remote team members.
+                    </p>
+                    <img src="images/11.PNG" alt="Image">
                 </div>
             </div>
         </div>
